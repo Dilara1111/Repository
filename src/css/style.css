@@ -71,3 +71,30 @@ a::before{
  .nav{
     color:#0056c1;
  }
+ .phone-header-all{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+ .phone-header{
+   display: none;
+ }
+ .phone-header2{
+   display: none;
+ }
+ @media(max-width:576px){
+   .phone-header{
+      display:block;
+   }
+   header{
+      display: none;
+   }
+ }
+ @media(max-width:768px){
+   .phone-header2{
+      display:block;
+   }
+   header{
+      display: none;
+   }
+ }
